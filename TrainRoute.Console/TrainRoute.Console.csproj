@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TrainRoute.DLL\TrainRoute.Domain.csproj" />
+    <ProjectReference Include="..\TrainRoute.Domain\TrainRoute.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="Data\Input.txt">

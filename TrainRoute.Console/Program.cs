@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using TrainRoute.Command;
-using TrainRoute.DLL.Model;
-using TrainRoute.DLL.Service;
+using TrainRoute.Domain.Model;
+using TrainRoute.Domain.Service;
 
 namespace TrainRoute
 {

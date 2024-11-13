@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using TrainRoute.DLL.Model;
+using TrainRoute.Domain.Model;
 
 namespace TrainRoute.Command
 {

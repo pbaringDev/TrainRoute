@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainRoute.Console", "TrainRoute.Console.csproj", "{84DB1A38-EACD-4E15-B95C-3DB66B233156}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainRoute.Console", "TrainRoute.Console\TrainRoute.Console.csproj", "{DB0BC44F-8747-40FD-B1E1-49F64E2F716C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainRoute.Domain", "..\TrainRoute.DLL\TrainRoute.Domain.csproj", "{F0BE9251-B430-4799-85F0-D2FB6674ABE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainRoute.Domain", "TrainRoute.Domain\TrainRoute.Domain.csproj", "{074E3AEA-7F70-462F-9FA1-7AC3F6BE70DC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainRoute.Test", "..\TrainRoute.Test\TrainRoute.Test.csproj", "{BBCA9D19-54E4-487A-A741-AD55C2D083F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainRoute.Test", "TrainRoute.Test\TrainRoute.Test.csproj", "{B36FEA70-6883-4757-9EEF-578522149A7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{84DB1A38-EACD-4E15-B95C-3DB66B233156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84DB1A38-EACD-4E15-B95C-3DB66B233156}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84DB1A38-EACD-4E15-B95C-3DB66B233156}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84DB1A38-EACD-4E15-B95C-3DB66B233156}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F0BE9251-B430-4799-85F0-D2FB6674ABE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F0BE9251-B430-4799-85F0-D2FB6674ABE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F0BE9251-B430-4799-85F0-D2FB6674ABE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F0BE9251-B430-4799-85F0-D2FB6674ABE9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BBCA9D19-54E4-487A-A741-AD55C2D083F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BBCA9D19-54E4-487A-A741-AD55C2D083F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BBCA9D19-54E4-487A-A741-AD55C2D083F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BBCA9D19-54E4-487A-A741-AD55C2D083F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0BC44F-8747-40FD-B1E1-49F64E2F716C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0BC44F-8747-40FD-B1E1-49F64E2F716C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0BC44F-8747-40FD-B1E1-49F64E2F716C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0BC44F-8747-40FD-B1E1-49F64E2F716C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074E3AEA-7F70-462F-9FA1-7AC3F6BE70DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074E3AEA-7F70-462F-9FA1-7AC3F6BE70DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074E3AEA-7F70-462F-9FA1-7AC3F6BE70DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074E3AEA-7F70-462F-9FA1-7AC3F6BE70DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36FEA70-6883-4757-9EEF-578522149A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36FEA70-6883-4757-9EEF-578522149A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36FEA70-6883-4757-9EEF-578522149A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36FEA70-6883-4757-9EEF-578522149A7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
