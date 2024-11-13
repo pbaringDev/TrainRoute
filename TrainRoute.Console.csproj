@@ -8,6 +8,10 @@
   <ItemGroup>
     <PackageReference Include="System.Collections" Version="4.3.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrainRoute.DLL\TrainRoute.Domain.csproj" />
+  </ItemGroup>
   <ItemGroup>
     <None Update="Data\Input.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
